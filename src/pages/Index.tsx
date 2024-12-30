@@ -1,11 +1,31 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { ParticlesBackground } from "@/components/ParticlesBackground";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
+    <div className="relative min-h-screen flex items-center justify-center bg-black overflow-hidden">
+      <ParticlesBackground />
+      
+      <div className="relative z-10 text-center px-4">
+        <div className="mb-8">
+          <img
+            src="/lovable-uploads/558c528f-4aaa-460f-a271-ce48cb781ab7.png"
+            alt="Profile"
+            className="w-32 h-32 rounded-full mx-auto mb-8 border-2 border-blue-500/20"
+          />
+        </div>
+
+        <h1 className="text-4xl md:text-6xl font-bold mb-4 text-white">
+          Building Tomorrow's
+          <br />
+          <span className="gradient-text text-5xl md:text-7xl block mt-2">
+            AI Solutions
+          </span>
+        </h1>
+
+        <p className="max-w-2xl mx-auto text-lg md:text-xl text-gray-300 leading-relaxed">
+          A generalist software engineer and designer with a passion for building - from early days of tinkering with{" "}
+          <span className="text-blue-400">electronics</span> to now crafting cutting-edge generative AI solutions.
+        </p>
       </div>
     </div>
   );
