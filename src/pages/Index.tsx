@@ -6,7 +6,7 @@ import {
   Layers,
   Sparkles,
   Database,
-  Paintbrush,
+  PlaneTakeoff,
 } from "lucide-react";
 
 const Index = () => {
@@ -25,10 +25,10 @@ const Index = () => {
         </div>
 
         <h1 className="text-4xl md:text-6xl font-bold mb-4 text-white">
-          Building Tomorrow's
+          Hello, I'm
           <br />
           <span className="gradient-text text-5xl md:text-7xl block mt-2">
-            AI Solutions
+            Muazzem Hossain
           </span>
         </h1>
 
@@ -51,7 +51,7 @@ const Index = () => {
                 <div>
                   <p className="text-sm text-gray-500 mb-2">FRONTEND</p>
                   <div className="flex flex-wrap gap-2">
-                    {["React", "Vue", "JavaScript", "Tailwind", "Three.js", "Firebase"].map((tech) => (
+                    {["Angular", "Vue", "JavaScript"].map((tech) => (
                       <span key={tech} className="px-3 py-1 bg-[#1a1d27] rounded-full text-sm text-gray-300">
                         {tech}
                       </span>
@@ -61,7 +61,7 @@ const Index = () => {
                 <div>
                   <p className="text-sm text-gray-500 mb-2">BACKEND</p>
                   <div className="flex flex-wrap gap-2">
-                    {["Node.js", "Python", "Express.js"].map((tech) => (
+                    {["Python", "Django","Django-REST", "Flask", "FastAPI"].map((tech) => (
                       <span key={tech} className="px-3 py-1 bg-[#1a1d27] rounded-full text-sm text-gray-300">
                         {tech}
                       </span>
@@ -81,7 +81,7 @@ const Index = () => {
                 <div>
                   <p className="text-sm text-gray-500 mb-2">CORE</p>
                   <div className="flex flex-wrap gap-2">
-                    {["LLMs", "Diffusion Models", "Prompt Engineering", "Fine Tuning"].map((tech) => (
+                    {["Document-AI","Vertex-AI", "Prompt Engineering", "Fine Tuning"].map((tech) => (
                       <span key={tech} className="px-3 py-1 bg-[#1a1d27] rounded-full text-sm text-gray-300">
                         {tech}
                       </span>
@@ -101,7 +101,7 @@ const Index = () => {
                 <div>
                   <p className="text-sm text-gray-500 mb-2">CLOUD PLATFORMS</p>
                   <div className="flex flex-wrap gap-2">
-                    {["GCP", "Cloudflare", "Docker", "Terraform"].map((tech) => (
+                    {["GCP", "AWS", "Docker", "Terraform"].map((tech) => (
                       <span key={tech} className="px-3 py-1 bg-[#1a1d27] rounded-full text-sm text-gray-300">
                         {tech}
                       </span>
@@ -111,15 +111,15 @@ const Index = () => {
               </div>
             </Card>
 
-            {/* Designing Card */}
+            {/* CI/CD Card */}
             <Card className="bg-[#0F1117] border-[#1a1d27] p-6">
               <div className="flex items-center gap-3 mb-4">
-                <Paintbrush className="w-8 h-8 text-green-400" />
-                <h3 className="text-xl font-semibold text-white">Designing</h3>
+                <PlaneTakeoff className="w-8 h-8 text-green-400" />
+                <h3 className="text-xl font-semibold text-white">CI/CD</h3>
               </div>
               <div className="space-y-4">
                 <div>
-                  <p className="text-sm text-gray-500 mb-2">DESIGN TOOLS</p>
+                  <p className="text-sm text-gray-500 mb-2">DEPLOYMENT TOOLS</p>
                   <div className="flex flex-wrap gap-2">
                     {["Figma", "ShadCn", "Three.js"].map((tech) => (
                       <span key={tech} className="px-3 py-1 bg-[#1a1d27] rounded-full text-sm text-gray-300">
