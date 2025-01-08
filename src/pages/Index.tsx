@@ -61,7 +61,7 @@ const Index = () => {
                 <div>
                   <p className="text-sm text-gray-500 mb-2">BACKEND</p>
                   <div className="flex flex-wrap gap-2">
-                    {["Python", "Django","Django-REST", "Flask", "FastAPI"].map((tech) => (
+                    {["Python", "Django","Django-REST", "Oscar", "Flask", "FastAPI"].map((tech) => (
                       <span key={tech} className="px-3 py-1 bg-[#1a1d27] rounded-full text-sm text-gray-300">
                         {tech}
                       </span>
@@ -101,7 +101,7 @@ const Index = () => {
                 <div>
                   <p className="text-sm text-gray-500 mb-2">CLOUD PLATFORMS</p>
                   <div className="flex flex-wrap gap-2">
-                    {["GCP", "AWS", "Docker", "Terraform"].map((tech) => (
+                    {["GCP", "AWS"].map((tech) => (
                       <span key={tech} className="px-3 py-1 bg-[#1a1d27] rounded-full text-sm text-gray-300">
                         {tech}
                       </span>
@@ -121,7 +121,7 @@ const Index = () => {
                 <div>
                   <p className="text-sm text-gray-500 mb-2">DEPLOYMENT TOOLS</p>
                   <div className="flex flex-wrap gap-2">
-                    {["Figma", "ShadCn", "Three.js"].map((tech) => (
+                    {["Github Actions", "AWS CodePipeline", "Docker", "Terraform"].map((tech) => (
                       <span key={tech} className="px-3 py-1 bg-[#1a1d27] rounded-full text-sm text-gray-300">
                         {tech}
                       </span>
@@ -140,43 +140,47 @@ const Index = () => {
             {/* Project 1 */}
             <Card className="bg-[#0F1117] border-[#1a1d27] p-6">
               <img 
-                src="/placeholder.svg" 
+                src="/jobkhuzi.png"
                 alt="Project 1" 
                 className="w-full h-48 object-cover rounded-lg mb-4"
               />
-              <h3 className="text-xl font-semibold text-white mb-2">AI Image Generator</h3>
+              <h3 className="text-xl font-semibold text-white mb-2">Job Search Portal</h3>
               <p className="text-gray-400 mb-4">
-                A state-of-the-art image generation tool powered by stable diffusion models.
+                A specialized job search portal designed for engineers, offering advanced capabilities such as powerful search, filtering, and sorting features.
               </p>
               <div className="flex gap-4">
-                <Button variant="outline" size="sm" className="gap-2">
-                  <Github className="w-4 h-4" />
+                <Button disabled={true} variant="outline" size="sm" className="gap-2">
+                  <Github className="w-4 h-4"/>
                   GitHub
                 </Button>
-                <Button variant="outline" size="sm" className="gap-2">
-                  <ExternalLink className="w-4 h-4" />
-                  Live Demo
-                </Button>
+                <a href="https://jobkhuzi.com/" target="_blank">
+                  <Button variant="outline" size="sm" className="gap-2">
+                    <ExternalLink className="w-4 h-4"/>
+                    Live Demo
+                  </Button>
+                  </a>
               </div>
             </Card>
 
             {/* Project 2 */}
             <Card className="bg-[#0F1117] border-[#1a1d27] p-6">
               <img 
-                src="/placeholder.svg" 
+                src="/portat.png"
                 alt="Project 2" 
                 className="w-full h-48 object-cover rounded-lg mb-4"
               />
-              <h3 className="text-xl font-semibold text-white mb-2">LLM Chat Interface</h3>
+              <h3 className="text-xl font-semibold text-white mb-2">Portal Scraping</h3>
               <p className="text-gray-400 mb-4">
-                A modern chat interface for interacting with large language models.
+                A Python-based project for scraping data from job portal. Easy to use and customizable.
               </p>
               <div className="flex gap-4">
+                <a href="https://github.com/saifulazad/portal-scraping" target="_blank" rel="noreferrer">
                 <Button variant="outline" size="sm" className="gap-2">
                   <Github className="w-4 h-4" />
                   GitHub
                 </Button>
-                <Button variant="outline" size="sm" className="gap-2">
+                  </a>
+                <Button disabled={true} variant="outline" size="sm" className="gap-2">
                   <ExternalLink className="w-4 h-4" />
                   Live Demo
                 </Button>
@@ -186,43 +190,51 @@ const Index = () => {
             {/* Project 3 */}
             <Card className="bg-[#0F1117] border-[#1a1d27] p-6">
               <img 
-                src="/placeholder.svg" 
+                src="/doc-ai.png"
                 alt="Project 3" 
                 className="w-full h-48 object-cover rounded-lg mb-4"
               />
-              <h3 className="text-xl font-semibold text-white mb-2">Cloud Infrastructure Dashboard</h3>
+              <h3 className="text-xl font-semibold text-white mb-2">Python Package for Google Document-AI</h3>
               <p className="text-gray-400 mb-4">
-                Real-time monitoring and management of cloud resources.
+                A reusable package for integrating Google Document AI into Python applications, streamlining document
+                processing workflows.
               </p>
               <div className="flex gap-4">
+                <a href="https://github.com/Muazzeem/reusable-doc-ai-package" target="_blank">
                 <Button variant="outline" size="sm" className="gap-2">
                   <Github className="w-4 h-4" />
                   GitHub
                 </Button>
+                </a>
+                <a href="https://pypi.org/project/reusable-code-for-document-ai/" target="_blank">
                 <Button variant="outline" size="sm" className="gap-2">
                   <ExternalLink className="w-4 h-4" />
                   Live Demo
                 </Button>
+                  </a>
               </div>
             </Card>
 
             {/* Project 4 */}
             <Card className="bg-[#0F1117] border-[#1a1d27] p-6">
               <img 
-                src="/placeholder.svg" 
+                src="/google-auth.png"
                 alt="Project 4" 
                 className="w-full h-48 object-cover rounded-lg mb-4"
               />
-              <h3 className="text-xl font-semibold text-white mb-2">Design System</h3>
+              <h3 className="text-xl font-semibold text-white mb-2">Keyless Authentication</h3>
               <p className="text-gray-400 mb-4">
-                A comprehensive design system built with React and Tailwind CSS.
+                Authenticate from GitHub Actions to create and manage Google Cloud
+                resources using Workload Identity Federation.
               </p>
               <div className="flex gap-4">
+                <a href="https://github.com/Muazzeem/gcp-infrastructure-using-terraform/tree/main/wlif" target="_blank">
                 <Button variant="outline" size="sm" className="gap-2">
                   <Github className="w-4 h-4" />
                   GitHub
                 </Button>
-                <Button variant="outline" size="sm" className="gap-2">
+                </a>
+                <Button disabled={true} variant="outline" size="sm" className="gap-2">
                   <ExternalLink className="w-4 h-4" />
                   Live Demo
                 </Button>
@@ -235,16 +247,13 @@ const Index = () => {
         <div className="py-20">
           <h2 className="text-4xl md:text-5xl font-bold mb-12 text-white">Get in Touch</h2>
           <div className="flex justify-center gap-8">
-            <a href="mailto:your@email.com" className="text-gray-400 hover:text-white transition-colors">
+            <a href="mailto:muazzem.mamun@gmail.com" className="text-gray-400 hover:text-white transition-colors">
               <Mail className="w-8 h-8" />
             </a>
-            <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
-              <Twitter className="w-8 h-8" />
-            </a>
-            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+            <a href="https://www.linkedin.com/in/muazzem-hossain/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
               <Linkedin className="w-8 h-8" />
             </a>
-            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+            <a href="https://github.com/Muazzeem" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
               <Github className="w-8 h-8" />
             </a>
           </div>
