@@ -1,7 +1,7 @@
 import { ParticlesBackground } from "@/components/ParticlesBackground";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Github, Linkedin, Mail, Twitter, ExternalLink } from "lucide-react";
+import { Github, Linkedin, Mail, ExternalLink, FileDown } from "lucide-react";
 import {
   Layers,
   Sparkles,
@@ -32,10 +32,19 @@ const Index = () => {
           </span>
         </h1>
 
-        <p className="max-w-2xl mx-auto text-lg md:text-xl text-gray-300 leading-relaxed mb-20">
+        <p className="max-w-2xl mx-auto text-lg md:text-xl text-gray-300 leading-relaxed mb-10">
           A generalist software engineer and designer with a passion for building - from early days of tinkering with{" "}
           <span className="text-blue-400">electronics</span> to now crafting cutting-edge generative AI solutions.
         </p>
+        {/* Download CV Section */}
+        <div className="mb-20">
+          <a href="https://drive.google.com/file/d/1lNbPv7a0mo4YLCF386LJRjRUHJJM49-n/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+          <Button variant="outline" size="sm" className="gap-2">
+            <FileDown className="w-4 h-4"/>
+            DOWNLOAD MY RESUME
+          </Button>
+          </a>
+        </div>
 
         {/* Tech Stack Section */}
         <div className="mb-20">
