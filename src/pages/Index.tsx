@@ -18,7 +18,7 @@ const Index = () => {
       <div className="relative z-10 text-center px-4 pt-20">
         <div className="mb-8">
           <img
-            src="/lovable-uploads/558c528f-4aaa-460f-a271-ce48cb781ab7.png"
+            src="/mamun.png"
             alt="Profile"
             className="w-32 h-32 rounded-full mx-auto mb-8 border-2 border-blue-500/20"
           />
