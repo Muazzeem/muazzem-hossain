@@ -243,18 +243,89 @@ const Index = () => {
           </div>
         </div>
 
+        {/* Experience Section */}
+        <div className="mb-20">
+          <h2 className="text-4xl md:text-5xl font-bold mb-12 text-white">Experience</h2>
+          <div className="space-y-6 max-w-4xl mx-auto">
+            {/* Experience 1 */}
+            <Card className="bg-[#0F1117] border-[#1a1d27] p-6">
+              <div className="flex flex-col md:flex-row items-start md:items-center gap-4">
+                <img
+                    src="/29563467.jpeg"
+                    alt='Profile'
+                    className="w-16 h-16 rounded-lg"
+                />
+                <div className="flex-1">
+                  <div className="flex flex-col md:flex-row md:items-center justify-between mb-2">
+                    <div>
+                      <h3 className="text-xl font-semibold text-white text-justify">Bitstrapped</h3>
+                      <p className="text-purple-400 text-sm">Backend Developer</p>
+                    </div>
+                    <span className="text-gray-400">2023 - Present</span>
+                  </div>
+                </div>
+              </div>
+              <span
+                  className="text-gray-400 flex mt-2 text-justify">Developed innovative AI applications to address complex challenges in healthcare and finance,
+                leveraging advanced machine learning models.</span>
+
+              <span
+                  className="text-gray-400 flex mt-2 text-justify">
+                Establish a seamless connection for data migration from AWS to GCP.
+              </span>
+            </Card>
+          </div>
+
+          <div className="space-y-6 max-w-4xl mx-auto mt-4">
+            {/* Experience 1 */}
+            <Card className="bg-[#0F1117] border-[#1a1d27] p-6">
+              <div className="flex flex-col md:flex-row items-start md:items-center gap-4">
+                <img
+                    src="/1633533238917.jpeg"
+                    alt='Profile'
+                    className="w-16 h-16 rounded-lg"
+                />
+                <div className="flex-1">
+                  <div className="flex flex-col md:flex-row md:items-center justify-between mb-2">
+                    <div>
+                      <h3 className="text-xl font-semibold company-name text-white text-justify">Fractalslab</h3>
+                      <p className="text-purple-400 text-sm">Fullstack Developer</p>
+                    </div>
+                    <span className="text-gray-400">2020 - 2023</span>
+                  </div>
+                </div>
+              </div>
+              <span
+                  className="text-gray-400 flex mt-2 text-justify">
+                Build a job recommendation system using advanced algorithms to match candidates with roles based on skills, experience, and preferences.
+              </span>
+              <span
+                  className="text-gray-400 flex mt-2 text-justify">
+                Developed strong and scalable backend solutions utilizing Python and Django framework.
+              </span>
+              <span
+                  className="text-gray-400 flex mt-2 text-justify">
+                Successfully designed and deployed architecture using Terraform, resulting in a significant
+                improvement in scalability and reliability.
+              </span>
+            </Card>
+          </div>
+        </div>
+
         {/* Footer / Get in Touch Section */}
         <div className="py-20">
           <h2 className="text-4xl md:text-5xl font-bold mb-12 text-white">Get in Touch</h2>
           <div className="flex justify-center gap-8">
             <a href="mailto:muazzem.mamun@gmail.com" className="text-gray-400 hover:text-white transition-colors">
-              <Mail className="w-8 h-8" />
+              <Mail className="w-8 h-8"/>
             </a>
-            <a href="https://www.linkedin.com/in/muazzem-hossain/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
-              <Linkedin className="w-8 h-8" />
+            <a href="https://www.linkedin.com/in/muazzem-hossain/" target="_blank" rel="noopener noreferrer"
+               className="text-gray-400 hover:text-white transition-colors">
+              <Linkedin className="w-8 h-8"/>
             </a>
-            <a href="https://github.com/Muazzeem" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
-              <Github className="w-8 h-8" />
+            <a href="https://github.com/Muazzeem" target="_blank" rel="noopener noreferrer"
+               className="text-gray-400 hover:text-white transition-colors">
+              <Github className="w-8 h-8"/>
             </a>
           </div>
         </div>
