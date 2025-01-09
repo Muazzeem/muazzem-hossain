@@ -261,7 +261,7 @@ const Index = () => {
                       <h3 className="text-xl font-semibold text-white text-justify">Bitstrapped</h3>
                       <p className="text-purple-400 text-sm">Backend Developer</p>
                     </div>
-                    <span className="text-gray-400">2023 - Present</span>
+                    <span className="text-gray-400">2023 - 2024</span>
                   </div>
                 </div>
               </div>
