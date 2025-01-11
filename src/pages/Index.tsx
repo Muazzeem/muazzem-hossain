@@ -286,11 +286,22 @@ const Index = () => {
                 </div>
               </div>
               <span
-                  className="text-gray-400 flex mt-2 text-justify">Developed innovative AI applications to address complex challenges in healthcare and finance,
+                  className="text-gray-400 flex mt-2 text-justify">
+                Developed innovative AI applications to address complex challenges in healthcare and finance,
                 leveraging advanced machine learning models.</span>
 
               <span
-                  className="text-gray-400 flex mt-2 text-justify">
+                  className="text-gray-400 flex mt-3 text-justify">
+                Provision multi-state infrastructures by terraform in reusable modules.
+              </span>
+
+              <span
+                  className="text-gray-400 flex mt-3 text-justify">
+                Containerize application by docker.
+              </span>
+
+              <span
+                  className="text-gray-400 flex mt-3 text-justify">
                 Establish a seamless connection for data migration from AWS to GCP.
               </span>
             </Card>
@@ -299,7 +310,7 @@ const Index = () => {
           <div className="space-y-6 max-w-4xl mx-auto mt-4">
             {/* Experience 1 */}
             <Card className="bg-[#0F1117] border-[#1a1d27] p-6">
-              <div className="flex flex-col md:flex-row items-start md:items-center gap-4">
+            <div className="flex flex-col md:flex-row items-start md:items-center gap-4">
                 <img
                     src="/1633533238917.jpeg"
                     alt='Profile'
@@ -320,11 +331,11 @@ const Index = () => {
                 Build a job recommendation system using advanced algorithms to match candidates with roles based on skills, experience, and preferences.
               </span>
               <span
-                  className="text-gray-400 flex mt-2 text-justify">
+                  className="text-gray-400 flex mt-3 text-justify">
                 Developed strong and scalable backend solutions utilizing Python and Django framework.
               </span>
               <span
-                  className="text-gray-400 flex mt-2 text-justify">
+                  className="text-gray-400 flex mt-3 text-justify">
                 Successfully designed and deployed architecture using Terraform, resulting in a significant
                 improvement in scalability and reliability.
               </span>
