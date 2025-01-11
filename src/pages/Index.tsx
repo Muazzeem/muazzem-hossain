@@ -24,18 +24,16 @@ const Index = () => {
           />
         </div>
 
-        <h1 className="text-4xl md:text-6xl font-bold mb-4 text-white">
+        <h1 className="text-4xl md:text-4xl font-bold mb-4 text-white">
           Hello, I'm
           <br/>
-          <span className="gradient-text text-5xl md:text-7xl block mt-2">
+          <span className="gradient-text text-5xl md:text-6xl block mt-2">
             Muazzem Hossain
           </span>
         </h1>
 
         <p className="max-w-2xl mx-auto text-lg md:text-xl text-gray-300 leading-relaxed mb-10">
-          A generalist software engineer and designer with a passion for building - from early days of tinkering
-          with{" "}
-          <span className="text-blue-400">electronics</span> to now crafting cutting-edge generative AI solutions.
+          A versatile backend engineer with a passion for building scalable and efficient systems - from early explorations of coding to building powerful APIs that now power powerful cloud-native solutions and modern applications.
         </p>
         {/* Download CV Section */}
         <div className="mb-20">
