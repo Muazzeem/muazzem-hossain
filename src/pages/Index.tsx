@@ -17,11 +17,9 @@ const Index = () => {
       {/* Hero Section */}
       <div className="relative z-10 text-center px-4 pt-20">
         <div className="mb-8">
-          <img
-              src="/mamun.png"
-              alt="Profile"
-              className="w-32 h-32 rounded-full mx-auto mb-8 border-2 border-blue-500/20"
-          />
+          <div className="w-10 h-10 rounded-full mx-auto mb-10 border-0">
+
+          </div>
         </div>
 
         <h1 className="text-4xl md:text-4xl font-bold mb-4 text-white">
