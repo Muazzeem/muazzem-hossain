@@ -1,7 +1,7 @@
 import { ParticlesBackground } from "@/components/ParticlesBackground";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import {Github, Linkedin, Mail, ExternalLink, FileDown, Link} from "lucide-react";
+import {Github, Linkedin, Mail, ExternalLink, FileDown, Link, NotebookPen } from "lucide-react";
 import {
   Layers,
   Sparkles,
@@ -355,6 +355,10 @@ const Index = () => {
             <a href="https://github.com/Muazzeem" target="_blank" rel="noopener noreferrer"
                className="text-gray-400 hover:text-white transition-colors">
               <Github className="w-8 h-8"/>
+            </a>
+            <a href="https://medium.com/@muazzem.mamun" target="_blank" rel="noopener noreferrer"
+               className="text-gray-400 hover:text-white transition-colors">
+              <NotebookPen className="w-8 h-8"/>
             </a>
           </div>
         </div>
