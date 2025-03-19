@@ -264,8 +264,45 @@ const Index = () => {
         {/* Experience Section */}
         <div className="mb-20">
           <h2 className="text-4xl md:text-5xl font-bold mb-12 text-white">Experience</h2>
+
           <div className="space-y-6 max-w-4xl mx-auto">
             {/* Experience 1 */}
+            <Card className="bg-[#0F1117] border-[#1a1d27] p-6">
+              <div className="flex flex-col md:flex-row items-start md:items-center gap-4">
+                <img
+                    src="/Vemate.png"
+                    alt='Profile'
+                    className="w-16 h-16 rounded-lg"
+                />
+                <div className="flex-1">
+                  <div className="flex flex-col md:flex-row md:items-center justify-between mb-2">
+                    <div>
+                      <h3 className="text-xl font-semibold text-white text-justify">Vemate</h3>
+                      <p className="text-purple-400 text-sm">Fullstack Developer</p>
+                    </div>
+                    <span className="text-gray-400">2025 - Present</span>
+                  </div>
+                </div>
+              </div>
+              <span
+                  className="text-gray-400 flex mt-2 text-justify">
+                Build automated marketing and sales solutions with Python and the Django framework.
+              </span>
+
+              <span
+                  className="text-gray-400 flex mt-3 text-justify">
+                Create full-stack applications using React for the front end and Django for the back end.
+              </span>
+
+              <span
+                  className="text-gray-400 flex mt-3 text-justify">
+                Design and manage a reliable CI/CD pipeline leveraging GitLab Actions and Docker.
+              </span>
+            </Card>
+          </div>
+
+          <div className="space-y-6 max-w-4xl mx-auto mt-4">
+            {/* Experience 2 */}
             <Card className="bg-[#0F1117] border-[#1a1d27] p-6">
               <div className="flex flex-col md:flex-row items-start md:items-center gap-4">
                 <img
@@ -306,7 +343,7 @@ const Index = () => {
           </div>
 
           <div className="space-y-6 max-w-4xl mx-auto mt-4">
-            {/* Experience 1 */}
+            {/* Experience 3 */}
             <Card className="bg-[#0F1117] border-[#1a1d27] p-6">
             <div className="flex flex-col md:flex-row items-start md:items-center gap-4">
                 <img
