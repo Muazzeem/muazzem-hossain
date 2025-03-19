@@ -291,7 +291,7 @@ const Index = () => {
 
               <span
                   className="text-gray-400 flex mt-3 text-justify">
-                Create full-stack applications using React for the front end and Django for the back end.
+                Create full-stack applications using Nuxt for the front end and Django for the back end.
               </span>
 
               <span
