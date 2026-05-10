@@ -10,7 +10,6 @@ import {
   FileDown,
   Link,
   NotebookPen,
-  User,
   Code2,
   Briefcase,
   BookOpen,
@@ -151,7 +150,9 @@ const Index = () => {
       {/* Sticky Glass Navbar */}
       <nav className="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-full max-w-3xl px-4">
         <GlassCard className="px-6 py-3 flex items-center justify-between">
-          <span className="font-bold text-sm gradient-text">MH</span>
+          <div className="w-7 h-7 rounded-full overflow-hidden border border-white/10">
+              <img src="/mamun.png" alt="Mamun" className="w-full h-full object-cover" />
+            </div>
           <div className="hidden md:flex items-center gap-6">
             {NAV_LINKS.map((link) => (
               <a
@@ -176,20 +177,20 @@ const Index = () => {
 
         {/* ── Hero ── */}
         <section id="about" className="mb-8">
-          <AnimateIn delay={0} className="mb-8 flex justify-center">
-            <div className="w-24 h-24 rounded-full border border-white/10 backdrop-blur-md bg-white/[0.04] flex items-center justify-center shadow-xl shadow-blue-500/10 ring-1 ring-inset ring-white/5">
-              <User className="w-10 h-10 text-white/40" />
+          <div className="mb-8 flex justify-center">
+            <div className="w-28 h-28 rounded-full border border-white/10 shadow-xl shadow-blue-500/10 ring-1 ring-inset ring-white/5 overflow-hidden">
+              <img src="/mamun.png" alt="Mamun" className="w-full h-full object-cover" />
             </div>
-          </AnimateIn>
+          </div>
 
-          <AnimateIn delay={100}>
+          <div>
             <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full backdrop-blur-md bg-white/[0.04] border border-white/10 text-sm text-gray-400 mb-6">
               <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
               Available for new opportunities
             </div>
-          </AnimateIn>
+          </div>
 
-          <AnimateIn delay={200}>
+          <div>
             <h1 className="text-4xl md:text-5xl font-bold mb-4 text-white">
               Hello, I'm
               <br />
@@ -197,18 +198,18 @@ const Index = () => {
                 Muazzem Hossain
               </span>
             </h1>
-          </AnimateIn>
+          </div>
 
-          <AnimateIn delay={300}>
+          <div>
             <p className="max-w-2xl mx-auto text-lg md:text-xl text-gray-400 leading-relaxed mb-10">
               A versatile backend engineer with a passion for building scalable
               and efficient systems — from early explorations of coding to building
               powerful APIs that now power cloud-native solutions and modern
               applications.
             </p>
-          </AnimateIn>
+          </div>
 
-          <AnimateIn delay={400}>
+          <div>
             <div className="flex flex-wrap items-center justify-center gap-4 mb-16">
               <a
                 href="https://drive.google.com/file/d/1lNbPv7a0mo4YLCF386LJRjRUHJJM49-n/view?usp=sharing"
@@ -234,7 +235,7 @@ const Index = () => {
                 </Button>
               </a>
             </div>
-          </AnimateIn>
+          </div>
 
           <AnimateIn delay={500} direction="none">
             <div className="flex justify-center mb-16 animate-bounce">
